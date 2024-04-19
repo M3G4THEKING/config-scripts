@@ -14,14 +14,14 @@ xml_file="warning.xml"
 xml_name="com.nianticproject.holoholo.libholoholo.unity.UnityMainActivity.xml"
 xml_path="/data/data/com.nianticlabs.pokemongo/shared_prefs/"
 
-# leave lib_version at 0.307.1 unless specified otherwise by cosmog dev
-lib_version=0.307.1
+# leave lib_version at 0.309.1 unless specified otherwise by cosmog dev
+lib_version=0.309.1
 cosmog_package="com.sy1vi3.cosmog"
 cosmog_apk=$(ls -t cosmog*.apk | head -n 1 | sed -e 's@\*@@g')
 cosmog_lib="libNianticLabsPlugin.so"
 
 # setting this version is important for pogo_install to work if used
-pogo_version=0.307.1
+pogo_version=0.309.1
 pogo_package="com.nianticlabs.pokemongo"
 port=5555
 
